@@ -1,0 +1,359 @@
+body {
+    font-family: 'Big Shoulders Text' ,'Comfortaa';
+    color: white;
+    background-image: linear-gradient(
+        75deg,
+        hsl(223deg 68% 6%) 27%,
+        hsl(243deg 48% 11%) 47%,
+        hsl(244deg 54% 14%) 56%,
+        hsl(246deg 62% 18%) 63%,
+        hsl(248deg 68% 21%) 68%,
+        hsl(248deg 74% 24%) 72%,
+        hsl(249deg 80% 28%) 76%,
+        hsl(250deg 87% 31%) 79%,
+        hsl(251deg 95% 33%) 82%,
+        hsl(254deg 99% 35%) 85%,
+        hsl(259deg 100% 37%) 87%,
+        hsl(263deg 100% 39%) 89%,
+        hsl(266deg 100% 40%) 91%,
+        hsl(268deg 100% 42%) 93%,
+        hsl(271deg 100% 44%) 95%,
+        hsl(273deg 100% 46%) 97%,
+        hsl(274deg 100% 47%) 98%,
+        hsl(276deg 100% 49%) 100%
+      );
+}
+h1 {
+    font-size: 90px;
+    text-shadow: 0px 5px 20px rgb(169,66,220);
+}
+h2 {
+    font-size: 25px;
+}
+p {
+    font-size: 20px
+}
+.header {
+    display: flex;
+    padding: 1em 5em;
+}
+.pic2 {
+    width: 67px;
+}
+.logo {
+    height: 67px;
+    display: flex;
+}
+.name {
+    padding: 0em 1em;
+    font-weight: bolder;
+}
+.nav {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+}
+.but {
+    margin: auto 1em; 
+    text-decoration: none;
+    color: white;
+}
+.but:hover {
+    color: gray;
+    transition: 0, 5s linear;
+}
+.getstartedhead {
+    margin: auto 1em;
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.getstartedhead:hover {
+    color: white;
+    border: 5px solid rgb(169,66,220);
+    background-color: rgb(169,66,220);
+    border-radius: 20px;
+    font-weight: bold;
+}
+.getstarted {
+    font-size: 20px;
+    margin-right: 1em;
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.getstarted:hover {
+    color: white;
+    border: 5px solid rgb(169,66,220);
+    background-color: rgb(169,66,220);
+    border-radius: 20px;
+    font-weight: bold;
+}
+.learnmore {
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: white;
+}
+.learnmore:hover {
+    background-color: white;
+    color: black;
+}
+.search {
+    margin: 1.3em 0;
+}
+img {
+    width:100%;
+}
+.grone {
+    padding: 1.5em 5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blockone {
+    width: 30%;
+}
+.blocktwo {
+    width: 33%;
+}
+.blockthree {
+    width: 33%;
+    padding-top: 12%;
+}
+.grtwo {
+    padding: 8em 5em;
+    display: flex;
+    justify-content: center;
+}
+.blockfour {
+    padding-top: 20em;
+    width: 25%;
+}
+.pic2 {
+    width: 67px;
+}
+.blockfive {
+    width: 50%;
+    text-align: center;
+    max-width: 400px;
+    padding: 0 2em;
+}
+.blocksix {
+    width: 25%;
+}
+.grthree {
+    padding: 5em 5em;
+    display: flex;
+    justify-content: center;
+}
+.blockseven {
+    width: 25%;
+    max-width: 200px;
+    margin-top: 200px;
+}
+.blockeight {
+    padding: 0 10%;
+    width: 40%;
+    text-align: center;
+    max-width: 300px;
+}
+.convert {
+    background-color: white;
+    max-width: 300px;
+    color: black;
+    padding: 2em 0;
+    border-radius: 50px;
+    border: 5px solid white;
+    box-shadow: inset 1px 1px 20px 3px grey;
+}
+.name2 {
+    margin-top: 1px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.conv {
+    margin: 5px 2.6em;
+    text-align: left;
+
+}
+.form {
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 7px;
+    text-align: center;
+}
+.tradenowbut {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 12px solid black;
+    background-color: black;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.tradenowbut:hover {
+    color: white;
+    border: 12px solid rgb(169,66,220);
+    background-color: rgb(169,66,220);
+    border-radius: 20px;
+    font-weight: bold;
+}
+.blocknine{
+    width: 25%;
+    max-width: 200px;
+    margin-top: 200px;
+}
+.grfour {
+    background-color: white;
+    color: black;
+    padding: 3em 5em;
+    display: flex;
+    justify-content: center;
+}
+.blockten {
+    margin-top: 40px;
+    width: 45%;
+    margin-right: 10%;
+    max-width: 450px;
+}
+.getstartedbl {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: 10px solid black;
+    background-color: black;
+    border-radius: 30px;
+}
+.getstartedbl:hover {
+    color: white;
+    border: 10px solid rgb(169,66,220);
+    background-color: rgb(169,66,220);
+    border-radius: 30px;
+}
+.blockeleven {
+    width: 45%;
+    max-width: 513px;
+}
+.white {
+    font-size: 90px;
+    color: black;
+}
+.grfive {
+    margin-right: 0;
+    display: flex;
+}
+.blocktwelve {
+    width: 40%;
+    max-width: 630px;
+}
+.blockthirteen {
+    width: 45%;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 10%;
+    max-width: 550px;
+    padding-right: 5em;
+}
+.blockfourteen {
+    text-align: center;
+}
+.grsix {
+    display: flex;
+    justify-content: center;
+    padding: 1.5em 5em;
+}
+.grseven {
+    padding: 1.5em 5em;
+    background-color: white;
+    color:black;
+}
+.blockseventeen {
+    text-align: center;
+    padding-top: 60px;
+}
+.blockeighteen {
+    text-align: center;
+    margin-top: -100px;
+}
+.grsevenplus {
+    display: flex;
+    justify-content: center;
+}
+.blocknineteen {
+    width: 27%;
+    max-width: 400px;
+}
+.blocktwenty {
+    width: 27%;
+    padding: 0 9%;
+    max-width: 400px;
+}
+.blocktwentyone {
+    width: 27%;
+    max-width: 400px;
+}
+.greight {
+    display: flex;
+    justify-content: center;
+}
+.blocktwentytwo {
+    width: 50%;
+    padding-top: 8em;
+}
+.blocktwentythree {
+    width: 30%;
+    max-width: 400px;
+    padding-top: 4em;
+}
+.grnine {
+    display: flex;
+    justify-content: center;
+    padding-left: 5em;
+    padding-top: 10em;
+}
+.blocktwentyfour {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+}
+.blocktwentyfive {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+}
+.blocktwentysix {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+}
+.blocktwentyseven {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+}
+.butsmall {
+    text-decoration: none;
+    color: white;
+    opacity: 0.4;
+}
+.arr {
+    padding-left: 5em;
+    padding-top: 5em;
+    font-size: 15px;
+    opacity: 0.5;
+}
